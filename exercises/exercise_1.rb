@@ -31,3 +31,5 @@ gastown = Store.new(
   mens_apparel: true,
   womens_apparel: false)
 gastown.save
+
+puts "The number of stores is: #{Store.all.count}"
