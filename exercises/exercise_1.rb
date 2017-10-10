@@ -5,9 +5,6 @@ puts "----------"
 
 # Your code goes below here ...
 
-class Store < ActiveRecord::Base
-end
-
 # Burnaby (annual_revenue of 300000, carries men's and women's apparel)
 burnaby = Store.new(
   name: 'Burnaby',
